@@ -1,0 +1,50 @@
+.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+
+  background-color: #4CAF50; /* Color de fondo verde */
+  color: white; /* Color de texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espaciado dentro del botón */
+  font-size: 16px; /* Tamaño de la fuente */
+  cursor: pointer; /* El cursor se convierte en mano cuando pasas por encima */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s;
+
+
+  background-color: #333; /* Fondo oscuro */
+  color: #00FF00; /* Texto verde */
+  border: 1px solid #00FF00; /* Borde verde */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #004d00;
+  background-color: #555; /* Fondo más claro cuando se pasa el ratón */
+  background-color: #45a049; /* Color de fondo cuando el mouse pasa por encima */
+
+}
+button {
+  
+
+
+}
+
+button:hover {
+
+}
+
+/* Estilo de los párrafos */
+p {
+  font-size: 18px;
+  margin-top: 10px;
+}

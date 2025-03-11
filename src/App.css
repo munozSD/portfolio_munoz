@@ -1,38 +1,25 @@
-.App {
-  text-align: center;
+/* Establecer un fondo oscuro y texto claro */
+body {
+  margin: 100px;
+  font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+  background-color: #121212; /* Fondo oscuro */
+  color: #00FF00; /* Texto verde como en una consola */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilo para el contenedor de la consola */
+.console {
+  text-align: left; /* Alinear el texto a la izquierda como en una consola */
+  padding: 20px;
+  width: 50%;
+  height: 100vh; /* Ocupa toda la pantalla */
+  overflow: hidden; /* Evitar desplazamiento del contenido */
+}
+.blinking-dot {
+  animation: blink 1s step-start 0s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@keyframes blink {
+  10% {
+    opacity: 0;
   }
 }
