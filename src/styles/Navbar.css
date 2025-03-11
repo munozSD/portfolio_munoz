@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.some-class {
+  @apply bg-gray-900 text-white p-4;
+}

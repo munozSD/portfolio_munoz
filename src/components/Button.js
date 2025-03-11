@@ -1,5 +1,5 @@
 import React from 'react';
-import './Button.css'; // Si tienes un archivo CSS para el botón
+import '../styles/Button.css'; // Si tienes un archivo CSS para el botón
 
 const Button = ({ label, onClick }) => {
   return (
