@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
 	justify-content: center;
 	align-items: center;
@@ -11,9 +16,10 @@ body {
 .console {
 	text-align: left; /* Alinear el texto a la izquierda como en una consola */
 	padding: 20px 20px;
-	width: 40%;
-	height: 20vh; /* Ocupa toda la pantalla */
+	width: 60%;
+	height: 60vh; /* Ocupa toda la pantalla */
 	background-color: #121212; /* Fondo oscuro */
+	border: solid red;
 
 }
 p {

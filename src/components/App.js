@@ -4,9 +4,6 @@ import '../styles/Button.css'
 import Button from './Button'; // Importar el botón
 import Console from "./Console";
 
-
-
-
 const App = () => {
 const [isBlinking, setIsBlinking] = useState(true);
 
