@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "./Contact";
 const Navbar = () => {
   return (
     <nav className="bg-gray-900 text-white p-4 shadow-lg">

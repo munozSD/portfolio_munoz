@@ -1,34 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-body {
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-/*            Obscurese el fondo y da aspecto matrix*/
-	font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
-	color: #00FF00; /* Texto verde como en una consola */
-	background-color: #121212;
-	}
-/* Estilo para el contenedor de la consola cambiar a un css independiente */
-.console {
-	text-align: left; /* Alinear el texto a la izquierda como en una consola */
-	padding: 20px 20px;
-	width: 60%;
-	height: 60vh; /* Ocupa toda la pantalla */
-	background-color: #121212; /* Fondo oscuro */
-	border: solid red;
-
-}
-p {
-    font-size: 24px;
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid black;
-}
-
-
-

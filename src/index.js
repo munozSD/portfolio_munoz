@@ -7,14 +7,21 @@ import reportWebVitals from './reportWebVitals';
 import Console from './components/Console';
 import Navbar from "./components/Navbar";
 import ComponenteXpl from "./components/ComponenteXpl";
-
+import Links from "./components/Links";
+import Button from "./components/Button";
+import Contact from "./components/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-	<Navbar />
-    <App />
-    <ComponenteXpl />
+    <Navbar />
+    <Links />
+    {/*<ComponenteXpl />*/}
+    {/*<App />*/}
+    {/*<Button />*/}
+        <Contact />
+
   </React.StrictMode>
 );
 reportWebVitals();
+// JulioMuñozDev @DESKTOP-C2CB72L MINGW64 ~
