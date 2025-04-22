@@ -10,6 +10,7 @@ import ComponenteXpl from "./components/ComponenteXpl";
 import Links from "./components/Links";
 import Button from "./components/Button";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,7 @@ root.render(
     {/*<ComponenteXpl />*/}
     {/*<App />*/}
     {/*<Button />*/}
-        <Contact />
+        {/*<Contact />*/}
 
   </React.StrictMode>
 );
