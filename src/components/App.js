@@ -1,3 +1,8 @@
-import '../styles/App.css';
-import '../styles/Button.css'
-// import Button from './Button';
+function App() {
+  return (
+    <div>
+      Hola mundo
+    </div>
+  );
+} 
+export default App;
