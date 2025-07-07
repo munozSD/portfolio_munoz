@@ -5,12 +5,14 @@ import { BrowserRouter, Routes, Route, useLocation, Link } from 'react-router-do
 import './styles/index.css';
 import './styles/Navbar.css';
 
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 // import Links from './components/Links';
-import About from './components/About';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import Home from './components/Home';
+import About from './components/pages/About';
+import Projects from './components/portfolio/Projects';
+import Contact from './components/pages/Contact';
+import Home from './components/pages/Home';
+import CV_Web from './components/portfolio/CV_Web'; // Asegúrate de crear este componente
+
 // import Animacion from './components/Animacion';
 
 
@@ -45,6 +47,8 @@ const App = () => (
       <Route path="/contact" element={<Contact />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:id" element={<BlogPost />} />
+      <Route path="/CV_Web" element={<CV_Web />} />
+
     </Routes>
   </Layout>
 );

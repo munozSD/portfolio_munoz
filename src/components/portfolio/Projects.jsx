@@ -1,5 +1,5 @@
 import React from "react";
-import estadisticas from '../assets/images/estadisticas.jpg';
+import estadisticas from '../../assets/images/estadisticas.jpg';
 
 const Projects = () => {
   return (
