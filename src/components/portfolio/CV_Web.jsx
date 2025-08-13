@@ -26,7 +26,7 @@ function CV_Web() {
           <div className="md:col-span-2 space-y-8">
             {/* Professional Profile */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">PERFIL PROFESIONAL</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">PERFIL PROFESIONAL</h3>
               <p className="text-gray-700">
                 Desarrollador Full Stack con enfoque analítico y actitud resolutiva. Me especializo en Laravel, React y MySQL, integrando soluciones técnicas con visión estratégica. Me motiva trabajar en equipo, automatizar procesos y generar mejoras sostenibles en los sistemas que desarrollo.
               </p>
@@ -34,12 +34,12 @@ function CV_Web() {
 
             {/* Experience */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">EXPERIENCIA</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">EXPERIENCIA</h3>
               
               <div className="mb-6">
                 <div className="flex justify-between items-start">
                   <h4 className="font-bold text-lg">FullStack Developer</h4>
-                  <span className="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded">09/23 - 04/25</span>
+                  <span className="bg-blue-100 text-sky-950 text-sm px-2 py-1 rounded">09/23 - 04/25</span>
                 </div>
                 <p className="text-gray-600 font-medium">Envasadora Aguida - Guanajuato</p>
                 <ul className="mt-2 list-disc list-inside text-gray-700 space-y-1">
@@ -52,7 +52,7 @@ function CV_Web() {
               <div className="mb-6">
                 <div className="flex justify-between items-start">
                   <h4 className="font-bold text-lg">FullStack Developer</h4>
-                  <span className="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded">01/23 - 09/23</span>
+                  <span className="bg-blue-100 text-sky-950 text-sm px-2 py-1 rounded">01/23 - 09/23</span>
                 </div>
                 <p className="text-gray-600 font-medium">Almacenadora de Occidente Xtrapak Jalisco</p>
                 <ul className="mt-2 list-disc list-inside text-gray-700 space-y-1">
@@ -64,7 +64,7 @@ function CV_Web() {
               <div className="mb-6">
                 <div className="flex justify-between items-start">
                   <h4 className="font-bold text-lg">FullStack Developer</h4>
-                  <span className="bg-blue-100 text-blue-800 text-sm px-2 py-1 rounded">06/22 - 12/22</span>
+                  <span className="bg-blue-100 text-sky-950 text-sm px-2 py-1 rounded">06/22 - 12/22</span>
                 </div>
                 <p className="text-gray-600 font-medium">Lerco Puebla</p>
                 <ul className="mt-2 list-disc list-inside text-gray-700 space-y-1">
@@ -77,7 +77,7 @@ function CV_Web() {
 
             {/* Key Achievements */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">LOGROS CLAVE</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">LOGROS CLAVE</h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2">
                 <li>Desarrollé e implementé aplicaciones para el control de versiones en procesos de envasado, mejorando la trazabilidad y reduciendo errores.</li>
                 <li>Optimicé la generación de fórmulas en el área de preparación, aumentando en un 20% la velocidad de procesamiento y reduciendo en un 30% el espacio de almacenamiento por producción.</li>
@@ -90,7 +90,7 @@ function CV_Web() {
           <div className="space-y-8">
             {/* Education */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">EDUCACIÓN</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">EDUCACIÓN</h3>
               <div>
                 <h4 className="font-bold">Ingeniería en Sistemas Computacionales - 2015</h4>
                 <p className="text-gray-600">Universidad Interactiva y a Distancia del Estado de Guanajuato - UNIDEG</p>
@@ -99,7 +99,7 @@ function CV_Web() {
 
             {/* Languages */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">IDIOMAS</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">IDIOMAS</h3>
               <div>
                 <p className="font-medium">Español: <span className="font-normal">Nativo</span></p>
                 <p className="font-medium mt-2">Inglés: <span className="font-normal">Comprensión de lectura técnica y documentación. Nivel intermedio en lectura y comprensión escrita.</span></p>
@@ -108,7 +108,7 @@ function CV_Web() {
 
             {/* Tech Stack */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">STACK DE HERRAMIENTAS</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">STACK DE HERRAMIENTAS</h3>
               <div>
                 <h4 className="font-bold text-gray-800 mb-2">Tecnologías Dominadas:</h4>
                 <div className="space-y-3">
@@ -130,9 +130,13 @@ function CV_Web() {
 
             {/* Interests */}
             <section>
-              <h3 className="text-xl font-bold text-blue-900 border-b border-blue-200 pb-2 mb-4">INTERESES</h3>
+              <h3 className="text-xl font-bold text-sky-950 border-b border-blue-200 pb-2 mb-4">INTERESES</h3>
               <p className="text-gray-700">
-                Me interesa la exploración tecnológica orientada al procesamiento y visualización de datos para respaldar la toma de decisiones. Disfruto estructurar e integrar información que mejore el control de procesos en sistemas complejos, especialmente en entornos industriales.
+                Me interesa la exploración tecnológica orientada al procesamiento y visualización de datos para respaldar la toma de decisiones. Disfruto estructurar e integrar información que mejore el control de procesos en sistemas complejos, especialmente en entornos industriales. También me motiva aprender 
+nuevas tecnologías que optimicen el 
+rendimiento, reduzcan redundancias y 
+permitan generar visualizaciones claras a 
+partir de datos dinámicos. 
               </p>
             </section>
           </div>
