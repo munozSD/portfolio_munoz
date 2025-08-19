@@ -1,12 +1,21 @@
 import Post from "../models/Post.js";
 
-export const getPosts = async (req, res) => {
-  const posts = await Post.find();
-  res.json(posts);
-};
-
 export const createPost = async (req, res) => {
-  const post = new Post(req.body);
-  await post.save();
-  res.json(post);
+  try {
+    const { title, content, category } = req.body;
+
+    const newPost = new Post({
+      title,
+      content,
+      category,
+      image: req.file ? req.file.filename : null, // guardar nombre de la imagen
+    });
+
+    await newPost.save();
+
+    res.status(201).json(newPost);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Error al crear el post" });
+  }
 };

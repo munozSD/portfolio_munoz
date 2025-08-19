@@ -1,20 +1,9 @@
 import mongoose from "mongoose";
 
-const PostSchema = new mongoose.Schema({
-  title: {
-    type: String,
-    required: true
-  },
-  content: {
-    type: String
-  },
-  category: {
-    type: String
-  },
-  createdAt: {
-    type: Date,
-    default: Date.now
-  }
-});
+const postSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  content: { type: String, required: true },
+  imageUrl: { type: String }, // 👈 aquí va la URL de la imagen
+}, { timestamps: true });
 
-export default mongoose.model("Post", PostSchema);
+export default mongoose.model("Post", postSchema);

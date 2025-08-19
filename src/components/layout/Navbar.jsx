@@ -21,7 +21,7 @@ const Navbar = () => {
             <Link to="/Projects" className="hover:text-gray-400">Proyectos</Link>
           </li>
           <li>
-            <Link to="/Blog" className="hover:text-gray-400">Blog</Link>
+            <Link to="/BlogList" className="hover:text-gray-400">Blog</Link>
           </li>
           <li>
             <Link to="/Contact" className="hover:text-gray-400">Contacto</Link>

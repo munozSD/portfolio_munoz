@@ -42,9 +42,9 @@ const Layout = ({ children }) => {
         <div className="lg:w-3/4 p-4 lg:p-8">{children}</div>
 
         {isHome && (
-          <div className="sticky top-4 p-2 overflow-y-auto h-fit">
+          <div className="sticky top-4 overflow-y-auto h-fit">
             <button
-              className="mb-4 px-3 py-1 bg-green-500 text-white rounded hover:bg-green-600"
+              className="text-gray-900 hover:cursor-default"
               onClick={handleAddPostClick}
             >
               Agregar Post
