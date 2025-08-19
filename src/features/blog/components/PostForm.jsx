@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-
 export default function PostForm({ closeModal }) {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
@@ -52,3 +51,4 @@ export default function PostForm({ closeModal }) {
     </form>
   );
 }
+
